@@ -1,0 +1,106 @@
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.form-popup{
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+   background: rgb(255, 186, 146);
+   border: 2px solid #161515;
+   border-radius: 5px;
+}
+
+.form-box{
+    margin-left:-50%;
+}
+
+.form-popup , .form-box {
+    display: flex;
+    
+}
+.form-box  .form-details {
+    max-width: 330px;
+    padding-top: 4%;
+}
+.form-box h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-box ,.form-content {
+    display: inline-block;
+    padding-left: 55%;
+}
+form .input-field {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+form .input-field input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 0.95rem;
+    border-radius: 3px;
+    border: 1px solid #161515;  
+}
+
+.form-box a{
+    color: white;
+    text-decoration: none;
+}
+.form-box a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.hospital_login{
+    margin-top: -20px;
+    width: 115%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 0;
+    border-radius: 3px;
+    margin: 25px 0;
+    color: #333;
+    cursor: pointer;
+    background: white;
+    text-align: center;
+}
+.login:hover,.signup:hover,.hospital_login:hover{
+    color: blue;
+    cursor: pointer;
+    background: white;
+    transition: .6s;
+}
+.login,.signup{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 14px 0;
+    border-radius: 3px;
+    margin: 25px 0;
+    color: #fff;
+    cursor: pointer;
+    background: black;
+    text-align: center;
+}
+.bottom-link {
+    text-align: Center;
+}
+.picture img{
+    width: 360px;
+    height: 100%
+}
+.form-details{
+    margin-top: 15%;
+}

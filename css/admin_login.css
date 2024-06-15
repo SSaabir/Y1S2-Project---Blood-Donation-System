@@ -1,0 +1,58 @@
+.wide_container{
+    width: 30%;
+    border: 1px solid;
+    border-radius: 5px;
+   margin: 9% auto;
+    padding: 12px;
+}
+
+hr{
+   margin: auto;
+    width: 95%;
+}
+
+.login{
+    width: 60%;
+    font-weight: bolder;
+    margin: 20px auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.login:hover{
+    background-color: darkblue;
+}
+.login{
+    padding:7px 20px;
+}
+
+.container2{
+    border: 2px solid;
+    text-align: center;
+    border-radius: 5px;
+    width:100%;
+    height: 53%;
+    color:rgb(11, 46, 46) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  
+}
+input[type="text"],input[type="password"]{
+    width: 250px;
+    border-radius: 10px;
+    padding: 13px;
+}
+body{
+    background:url(../images/admlog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+legend{
+    text-align: center;
+    color: white;
+    font-size:50px;
+}
+input{
+    margin-top: 15px;
+}

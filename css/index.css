@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family: 'Space Mono','Tilt Neon','sans-serif';
+}
+
+body
+{
+	justify-content: center;
+	align-items: center;
+	background-color:#EEF5FF;
+	margin-top: 100px;
+	min-height: 100vh;
+}
+
+/*Start Header Style*/
+header
+{
+	position:absolute ;
+	background: linear-gradient(217deg, rgb(0, 0, 255,0.4), rgba(0,0,255,0) 70.71%),
+            linear-gradient(127deg, rgba(255, 0, 0, 0.3), rgba(255,0,0,0) 70.71%);
+	top:0;
+	left: 0;
+	width: 100%;
+	padding:20px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.logo{
+	position:absolute;
+	width: 350px;
+	left: 0px;
+	margin: -25px 0 0 -75px;
+}
+.menu{
+	width: fit-content; 
+    margin: auto;
+}
+.menu a
+{
+	display: inline-block;
+	font-size: 1.1em;
+	font-weight: 200;
+	border-right: solid;
+	padding: 5px 18px;
+	color: #333;
+	text-decoration:none;
+	transition: .5s;
+}
+
+.menu a:hover{
+	background-color: #333;
+	color:whitesmoke;
+}
+.menu .home{
+	border-left: solid;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 10px;
+}
+.menu .contact{
+	border-bottom-right-radius: 20px;
+	border-top-right-radius: 10px;
+}
+.appointment{
+	cursor: pointer;
+	width: 130px;
+    height: 50px;
+    border: 2px solid #000000;
+    outline:none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    color: white;
+	background-color: #333;
+    font-weight: 500;
+    transition: .5s;
+}
+.appointment:hover
+{
+	background-color: azure;
+	color:blue;
+}
+.user{
+	background-color: rgb(250, 213, 213);
+	border-radius: 30px;
+	position: absolute;
+	cursor: pointer;
+	right: 30px;
+	height: 40px;
+	width: 40px;
+	transition: .1s;
+}
+.user:hover{
+	background-color: #fff;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+	bottom: auto;
+	position: relative;
+    padding: 20px;
+	left: 0;
+	right: 0;
+    background-color: #370c0c;
+    margin-top: auto;
+    width: 100%;
+  }
+  
+  .block {
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .block img {
+	background-color: white;
+	border-radius: 10px;
+    max-width: 300px;
+	margin-bottom: 2%;
+  }
+  
+  .block p {
+    font-size: 12px;
+    color: #cfcfcf;
+  }
+  
+  .block h3 {
+    font-size: 17px;
+    color: #ffffff;
+  }
+  .block ul{
+	padding: 5px;
+  }
+  .block ul li {
+    margin-bottom: 5px;
+  }
+  
+  .block ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #969696;
+  }
+  
+.copyR {
+  font-size: 14px;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: #370c0c;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.copyR p {
+  margin: 0;
+}
+	

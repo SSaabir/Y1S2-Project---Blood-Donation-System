@@ -1,0 +1,41 @@
+input{
+	border-radius: 6px;
+	padding: 0.75%;
+}
+.sec1,.sec2,.sec3,.sec4,.sec5{
+    text-align: left;
+	margin: 15px 0;
+}
+.one,.two,.three,.four,.five{
+    font-family:sans-serif;
+	font-weight: 350px;
+	display: inline;
+	margin:0 4%;
+}
+.one{
+    margin-left: 16%;
+}
+.change,.update{
+    color: aliceblue;
+	font: weight 1200px;
+	background-color:#333;
+	padding: 5px 12px;
+	margin:3% 13%;
+    
+    float: right;
+}
+hr{
+	margin: auto;
+	width: 90%;
+}
+.blue,.head{
+	margin-left: 2%;
+}
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-weight: 10px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,46 @@
+
+.title{
+    padding-left: 45%;
+}
+
+.getFeedback{
+    background-color: antiquewhite ;
+    width: 50%;
+    padding: 1%;
+    margin: auto;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    height: 18%;
+}
+.getFeedback> form > input {
+    padding: 1%;
+    width: 100%;
+    height: 50%;
+}
+.getFeedback > ::placeholder{
+    font-size: 100%;
+    padding: 1%;
+ 
+}
+
+.SubmitButton{
+    margin-left: 91%;
+    margin-top: 4%;
+}
+
+.info {
+    width: calc(50% - 20px); 
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #f8f9fa; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+}
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}

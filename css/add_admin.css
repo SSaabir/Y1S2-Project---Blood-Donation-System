@@ -1,0 +1,66 @@
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-weight: 10px;
+    font-family: sans-serif;
+}
+legend{
+    text-align:center;
+}
+fieldset{
+    border-radius: 10px;
+    width: 50%;
+    height:auto;
+    margin: 0 auto;
+}
+
+
+.first_line,.sec-line,.third-line,.fourth-line,.fifth-line,.sixth-line,.seventh-line{
+   
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+#Salutation, #firstname, #lastname{
+    display: inline-block;
+    padding:0 20px;
+}
+
+
+.second,.third,.fouth,.fifth,.six,.seven,.eight{
+    display: inline;
+    padding: 0 20px;
+}
+
+.third{
+    padding: 0 20px;
+    
+}
+.reset{
+    display: inline;
+    margin:2%;
+    
+}
+input[type="reset"]{
+    margin-left: 35%;
+}
+input::placeholder{
+    opacity: 50%;
+    text-align: center;
+}
+.eight{
+    margin-left:20%;
+}
+.reset > input{
+    background: #000000;
+    color: #ffffff;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+.right{
+    padding-left: 60%;
+}

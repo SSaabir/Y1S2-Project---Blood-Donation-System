@@ -1,0 +1,34 @@
+main{
+  margin-left: 20px;
+}
+
+body {
+  background-color: rgb(241, 241, 239);
+}
+
+h2{
+  color:rgb(218, 61, 61);
+}
+
+h3{
+  color:rgb(218, 61, 61);
+}
+
+body{
+  background-image:url(/images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+}
+
+h1{
+  color:rgb(30, 30, 114);
+}
+body{
+  background-image:url(/images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  font-weight: 10px;
+  font-family: sans-serif;
+}

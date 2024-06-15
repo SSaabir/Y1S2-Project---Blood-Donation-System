@@ -1,0 +1,58 @@
+.frame{
+	background-color:azure;
+	border-color: black;
+	border: 2%;
+	border-radius: 10px;
+	width: 50%;
+	height: 65%;
+	margin: 3% auto;
+}
+.legend{
+	text-align: center;
+	font-size:x-large;
+}
+input{
+	border-radius: 6px;
+	padding: 0.75%;
+}
+.first_line,.second_line,.third_line,.fourth_line,.fifth_line,.sixth_line,.random,.seventh_line{
+	text-align: left;
+	margin: 15px 0;
+}
+.first,.second,.third,.fourth,.fifth,.sixth,.seventh{
+	font-family:sans-serif;
+	font-weight: 350px;
+	display: inline;
+	margin:0 4%;
+}
+.random{
+	margin-left: 2%;
+}
+.fifth{
+	margin-left: 2%;
+}
+.sixth input{
+	color: aliceblue;
+	font: weight 1200px;
+	background-color:#333;
+	padding: 5px 12px;
+	margin:3% 3%;
+}
+hr{
+	margin: auto;
+	width: 90%;
+}
+.seventh{
+	margin-left: 26%;
+}
+input[type="reset"]{
+	margin-left: 30%;
+}
+body{
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    font-weight: 10px;
+    font-family: sans-serif;
+}

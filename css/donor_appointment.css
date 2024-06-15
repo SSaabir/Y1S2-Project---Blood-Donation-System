@@ -1,0 +1,62 @@
+.frame{
+    background-color: rgb(204, 145, 204); 
+    border-color: rgb(56, 2, 59);
+    border:2%;
+    border-radius: 10px;
+    width:50%;
+    height: 80%;
+    margin: 3% auto;
+}
+
+.name-line{
+   text-align: left;
+}
+.firstname,.lastname{
+    display: inline;
+}
+
+body {
+    background-image:url(/images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+legend{
+    text-align: center;
+    font-size: x-large;
+}
+
+input{
+    border-radius: 6px;
+    padding:1%;
+}
+
+#people,.bg,.place,#meridiem{
+    border-radius: 6px;
+    padding:1%;
+}
+
+#first_line{
+    padding-left: 30px;
+}
+
+.one,.two,.three,.four,.five,.hos{
+font-family:sans-serif;
+font-weight: 350px;
+display: inline;
+margin: 0 4%;
+}
+
+.four input{
+    color:aliceblue;
+    font:weight 1200px;
+    background-color: #333;
+    padding:5px 12px;
+    margin:3% 3%;
+}
+
+#meridiem{
+    margin: -50;
+}
+
